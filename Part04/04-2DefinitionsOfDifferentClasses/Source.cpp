@@ -6,10 +6,11 @@ private:
 	int xpos, ypos;
 
 public:
-	void Init(int x, int y) {
+	/*void Init(int x, int y) {
 		xpos = x;
 		ypos = y;
-	}
+	}*/
+	Point(int x, int y): xpos(x), ypos(y){}
 	void ShowPointInfo() const {
 		cout << "[" << xpos << ", " << ypos << "]" << endl;
 	}
@@ -21,10 +22,11 @@ private:
 	int radius; // ¹ÝÁö¸§
 
 public:
-	void Init(int x, int y, int r) {
+	/*void Init(int x, int y, int r) {
 		centerPosition.Init(x, y);
 		radius = r;
-	}
+	}*/
+	Circle(int x, int y, int r): centerPosition(x,y), radius(r){}
 	int getRadius() const{
 		return radius;
 	}
@@ -40,9 +42,9 @@ private:
 	Circle outC;
 
 public:
-	void Init(int inX, int inY, int inR, int outX, int outY, int outR) {
-		inC.Init(inX, inY, inR);
-		outC.Init(outX, outY, outR);
+	Ring(int inX, int inY, int inR, int outX, int outY, int outR): inC(inX, inY, inR), outC(outX, outY, outR)
+	{
+		
 	}
 	void ShowRingInfo()
 	{
@@ -54,8 +56,7 @@ public:
 };
 
 int main(void) {
-	Ring ring;
-	ring.Init(1, 1, 4, 2, 2, 9);
+	Ring ring(1, 1, 4, 2, 2, 9);
 	ring.ShowRingInfo();
 	return 0;
 }
