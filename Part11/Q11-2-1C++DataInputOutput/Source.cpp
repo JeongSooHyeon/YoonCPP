@@ -7,13 +7,8 @@ private:
 	int xpos, ypos;
 public:
 	Point(int x=0, int y=0) : xpos(x), ypos(y){}
-	friend ostream& operator<<(ostream& os, const Point& pos);
 	friend ostream& operator<<(ostream& os, const Point* pos);
 };
-ostream& operator<<(ostream& os, const Point& pos) {
-	os << '[' << pos.xpos << ", " << pos.ypos << ']' << endl;
-	return os;
-}
 ostream& operator<<(ostream& os, const Point* pos) {
 	os << '[' << pos->xpos << ", " << pos->ypos << ']' << endl;
 	return os;
@@ -35,6 +30,7 @@ public:
 	POINT_PTR& operator[] (int idx) {
 		if (idx < 0 || idx >= arrlen) {
 			cout << "Array index ou of bound exception" << endl;
+			exit(1);
 		}
 		return arr[idx];
 	}
