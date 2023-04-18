@@ -15,45 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="String.cpp">
+    <ClCompile Include="TemplateArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Account.cpp">
+    <ClCompile Include="PointClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AccountArray.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AccountHandler.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BankingSystemMain.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="String.h">
+    <ClInclude Include="TemplateArray.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Account.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AccountArray.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AccountHandler.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BankingCommonDecl.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HighCreditAccount.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NormalAccount.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BoundCheckArray.h">
+    <ClInclude Include="PointClass.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
