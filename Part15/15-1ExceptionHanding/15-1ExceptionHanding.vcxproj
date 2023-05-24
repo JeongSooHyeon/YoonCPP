@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b8c36e0a-8889-4740-9df0-37219d08fcef}</ProjectGuid>
-    <RootNamespace>Q1122</RootNamespace>
+    <ProjectGuid>{c099f953-0bc1-4db9-b957-a2c80e40cf6a}</ProjectGuid>
+    <RootNamespace>My151ExceptionHanding</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

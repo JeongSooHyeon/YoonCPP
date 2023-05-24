@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b8c36e0a-8889-4740-9df0-37219d08fcef}</ProjectGuid>
-    <RootNamespace>Q1122</RootNamespace>
+    <ProjectGuid>{a73f889c-a1ef-4a77-ab07-a94650c30f42}</ProjectGuid>
+    <RootNamespace>OOPProject11</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="AccountArray.cpp" />
+    <ClCompile Include="AccountHandler.cpp" />
+    <ClCompile Include="BankingSystemMain.cpp" />
+    <ClCompile Include="ExceptionClass.cpp" />
+    <ClCompile Include="String.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="AccountArray.h" />
+    <ClInclude Include="AccountHandler.h" />
+    <ClInclude Include="BankingCommonDecl.h" />
+    <ClInclude Include="BoundCheckArray.h" />
+    <ClInclude Include="ExceptionClass.h" />
+    <ClInclude Include="HighCreditAccount.h" />
+    <ClInclude Include="NormalAccount.h" />
+    <ClInclude Include="String.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

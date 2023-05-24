@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b8c36e0a-8889-4740-9df0-37219d08fcef}</ProjectGuid>
-    <RootNamespace>Q1122</RootNamespace>
+    <ProjectGuid>{fd541f94-7279-4200-bb02-541cbe0a32f0}</ProjectGuid>
+    <RootNamespace>My153StackUnwinding</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

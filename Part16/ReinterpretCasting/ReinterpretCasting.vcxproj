@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b8c36e0a-8889-4740-9df0-37219d08fcef}</ProjectGuid>
-    <RootNamespace>Q1122</RootNamespace>
+    <ProjectGuid>{2affd0be-47d6-4622-8083-70508d4b3fcf}</ProjectGuid>
+    <RootNamespace>ReinterpretCasting</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
